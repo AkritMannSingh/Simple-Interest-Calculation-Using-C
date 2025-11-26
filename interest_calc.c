@@ -1,5 +1,8 @@
 #include <stdio.h>
 int main(){
+printf("Welcome in Interest Calculator🧮");
+
+printf("---------------------------------------");
   int p;
   int r;
   int t;
@@ -10,5 +13,8 @@ int main(){
   printf("Enter the time period:");
   scanf("%d", & t);
   printf("The simple interest is %f\n", (p*r*t)/100.0);
+
+printf("========================================");
+printf("It's 👍");
   return 0;
 }
